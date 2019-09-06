@@ -1,0 +1,179 @@
+﻿
+
+#logo a {
+    float: left;
+    font-weight: bold;
+    font-size: 34px;
+    margin-left: 10px;
+    text-decoration: none;
+    color:black;
+  
+}
+
+header {
+    width: 100%;
+    padding: 0.5% 0px 0.5%;
+    background: transparent;
+    float: left;
+    background-color:white;
+   
+   
+}
+nav {
+    overflow: hidden;
+    float: right;
+    display:block;
+    margin-right:140px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+}
+nav li {
+    float: left;
+    list-style: none;
+    padding:20px;
+}
+li {
+    display: block;
+}
+header nav li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+header nav {
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+}
+#top {
+    font-size: 3em;
+    height: 1000px;
+    width: 100%;
+    background-image: url(Golovna.png);
+    background-blend-mode: multiply;
+    background-color: #616b73;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+#top h1 {
+    text-align:center;
+    display:block;
+    padding-top:300px;
+}
+#main {
+   
+    background-color: #f6f6f6;
+    padding: 100px 0;
+    width:100%;
+}
+
+#orenda {
+    float: left;
+    background-image: url(https://images.ua.prom.st/126881098_w640_h640_avtokran-palfinger-sany.jpg);
+    background-blend-mode: multiply;
+    background-color: #c3bd8c;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    align-items:center;
+}
+
+
+#orenda h2 {
+    font-size: 4em;
+}
+
+#orenda h4 {
+    color: #ccc;
+    font-size: 1.5em;
+}
+
+#orenda .img {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding-left:6%;
+}
+       
+ #orenda .img:nth-child(odd) {
+    margin-left: 18%;
+}
+
+#orenda img {
+    float: left;
+    width: 100%;
+    max-width: 500px;
+}
+
+#orenda img:hover {
+    opacity: 0.9;
+    transition: all 1s ease-out 0s;
+    transform: scale(1, 1);
+    background: #fafafa;
+    box-shadow: 0 0 10px 10px #fff;
+    transition: all 1s ease 0s;
+}
+
+#orenda span {
+    float: left;
+    width: 100%;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+    #orenda .img {
+        width: 80% !important;
+        margin-right: 0 !important;
+        margin-left: 10% !important;
+    }
+
+    @media (max-width:1400px) {
+        #orenda span {
+            font-size: 15px;
+        }
+    }
+
+    @media (min-width: 700px) and (max-width: 1000px) {
+        #orenda span {
+            font-size: 15px;
+        }
+    }
+}
+
+#info {
+    width: 100%;
+    display: block;
+    float: left;
+    background-color: #f6f6f6;
+}
+#info div{
+    display:block;
+    width:21%;
+    float:left;
+    padding:60px;
+}
+.footer {
+    justify-content:space-around;
+    float:left;
+    display:flex;
+    background-color: #808080;
+    width: 100%;
+    background: #b5aeae;
+    padding-bottom:40px;
+    padding-top:30px;
+}
+
+
